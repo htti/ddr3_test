@@ -1,0 +1,23 @@
+Core: myddr3l_p0 - Instance: myddr3l_inst|myddr3l_inst
+Path, Setup Margin, Hold Margin
+"Address Command (Slow 1200mV 85C Model)",0.7,0.846
+"Bus Turnaround Time (Slow 1200mV 85C Model)",7.54,--
+"Core (Slow 1200mV 85C Model)",-0.017,0.218
+"Core Recovery/Removal (Slow 1200mV 85C Model)",0.061,0.86
+"DQS vs CK (Slow 1200mV 85C Model)",-0.221,1.489
+"Read Capture (Slow 1200mV 85C Model)",0.075,0.075
+"Write (Slow 1200mV 85C Model)",-0.548,-0.12
+"Address Command (Slow 1200mV 0C Model)",0.713,0.844
+"Bus Turnaround Time (Slow 1200mV 0C Model)",7.571,--
+"Core (Slow 1200mV 0C Model)",0.577,0.215
+"Core Recovery/Removal (Slow 1200mV 0C Model)",1.071,0.769
+"DQS vs CK (Slow 1200mV 0C Model)",-0.223,1.503
+"Read Capture (Slow 1200mV 0C Model)",0.08,0.08
+"Write (Slow 1200mV 0C Model)",-0.518,-0.118
+"Address Command (Fast 1200mV 0C Model)",0.804,0.905
+"Bus Turnaround Time (Fast 1200mV 0C Model)",7.732,--
+"Core (Fast 1200mV 0C Model)",1.199,0.088
+"Core Recovery/Removal (Fast 1200mV 0C Model)",1.951,0.412
+"DQS vs CK (Fast 1200mV 0C Model)",-0.859,1.566
+"Read Capture (Fast 1200mV 0C Model)",0.125,0.125
+"Write (Fast 1200mV 0C Model)",-0.962,0.087

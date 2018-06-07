@@ -1,0 +1,5 @@
+PLL_Name	myddr3l:myddr3l_inst|myddr3l_0002:myddr3l_inst|myddr3l_pll0:pll0|altpll:upll_memphy|altpll_t0j3:auto_generated|pll1
+PLLJITTER	32
+PLLSPEmax	84
+PLLSPEmin	-53
+
