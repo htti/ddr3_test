@@ -117,6 +117,18 @@ myddr3l myddr3l_inst(
 							.pll_capture0_clk(pll_capture0_clk),   //                 .pll_capture0_clk
 							.pll_capture1_clk(pll_capture1_clk)    //                 .pll_capture1_clk
 					);
+wire rgb_clk;	
+wire rd_fifo_req;
+wire [7:0] rd_usedw;
+wire [23:0] w_data;				
+data_gen data_gen_inst(.clk(rgb_clk),
+						.afi_clk(afi_clk),
+						.rstn(afi_rstn),
+						.rd_req(),
+				
+						.rd_usedw(),
+						.data());					
+
 wire act_sucess;
 wr_rd wr_rd_inst(.afi_clk(afi_clk),
 						.rstn(afi_reset_n),
@@ -138,6 +150,11 @@ wr_rd wr_rd_inst(.afi_clk(afi_clk),
 						.local_init_done(local_init_done),    //           status.local_init_done
 						.local_cal_success(local_cal_success),  //                 .local_cal_success
 						.local_cal_fail(local_cal_fail),
+						
+						.w_data(w_data),
+						.rd_fifo_req(rd_fifo_req),
+						.rd_usedw(rd_usedw),
+						
 						.act_sucess(act_sucess)
 					);
 assign LED[0] = ~act_sucess;

@@ -4,7 +4,7 @@ module data_gen(input clk,
 				input rd_req,
 				
 				output [7:0] rd_usedw,
-				output [63:0] data);
+				output [23:0] data);
 
 					 
 wire hs,vs,de;
